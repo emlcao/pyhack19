@@ -4,7 +4,7 @@ import os
 import requests
 import json
 
-webhook_url = ''
+webhook_url = '' # redacted
 # Load the jpg file into a numpy array
 image = face_recognition.load_image_file(
     "/Users/lcao02/Dropbox/pygmathon19/src/anna.jpg")
@@ -64,4 +64,5 @@ References:
 https://github.com/ageitgey/face_recognition
 2. Kids And Cars
 https://www.kidsandcars.org/
+Some secret URL and tokens have been redacted
 '''

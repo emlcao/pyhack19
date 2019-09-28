@@ -1,5 +1,11 @@
 # pyhack19
 Pygmalion 2019
+
+## Project structure
+
+`src`: face recognition app and notification via slack web hook
+`conf`: configuration for raspberry pi save jpg image from web cam every second
+
 ## Inspiration
 Nearly a thousand children died of heatstroke in the cars. This year alone, 44 of them died because busy parents forgot about them. The trend is likely to continue given the earth's hotter climate. 
 
