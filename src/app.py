@@ -52,7 +52,7 @@ if num_face >= 1:
         # Display the resulting image
         # pil_image.show()
         pil_image.save('/Users/lcao02/Dropbox/Public/face.jpg')
-        notif = f'WARNING: Your child is left in the car -- https://www.dropbox.com/sh/clpcxak780s3da0/AAA9a5o3Luua1PM7xhj50DpYa?dl=0&preview=face.jpg'
+        notif = f'WARNING: Your child is left in the car -- http'
         slack_data = {'text': notif}
         response = requests.post(webhook_url,
                                  data=json.dumps(slack_data),
