@@ -57,3 +57,11 @@ if num_face >= 1:
         response = requests.post(webhook_url,
                                  data=json.dumps(slack_data),
                                  headers={'Content-Type': 'application/json'})
+
+'''
+References:
+1. Face Recognition
+https://github.com/ageitgey/face_recognition
+2. Kids And Cars
+https://www.kidsandcars.org/
+'''
